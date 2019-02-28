@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Email validation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style/styles.css" />
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="scripts/script.js"></script>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="successMessage"></div>
+        <div id="errorMessage"></div>
+        <form>
+        <div class="form-element">
+            <label for="email"> Email</label>
+            <input type="email" name="email" id="email" class="form-input" placeholder="e.g. myemail@myemail.com">
+        </div>
+        <div class="form-element">
+            <label for="telephone"> Telephone</label>
+            <input type="text" name="telephone" id="phone" class="form-input" placeholder="e.g. 88888888">
+        </div>
+        <div class="form-element">
+            <label for="password"> Password</label>
+            <input type="password"  id="password" class="form-input" name="password">
+        </div>
+        <div class="form-element">
+            <label for="passwordConfirm"> Confirm password</label>
+            <input type="password" id="passwordConfirm" class="form-input" name="passwordConfirm">
+        </div>
+        <button id="submitBtn"> SUBMIT </button>
+    </form>
+    </div>
+
+</body>
+
+</html>

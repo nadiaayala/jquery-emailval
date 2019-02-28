@@ -1,0 +1,15 @@
+.form-input{
+    height: 30px;
+    border-radius: 5px;
+}
+.form-element{
+    margin-bottom: 10px;
+}
+#submitBtn{
+    height: 35px;
+    width: 150px;
+}
+#errorMessage{
+    height: auto;
+    width: fit-content;
+}
